@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&family=El+Messiri:wght@400;500;600;700&family=Gluten:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="game">
+        <div class="name">Typing Speed Test Game</div>
+        <form action="">
+            <label for="levels">Choose Your Level</label>
+            <select name="level" id="levels">
+                <option value="5">Easy</option>
+                <option value="3" selected>Normal</option>
+                <option value="2">Hard</option>
+            </select>
+        </form>
+        <div class="container">
+            <div class="message">
+                You Are Playing On
+                <span class="lvl"></span> Level & You Have <span class="seconds"></span> Seconds To Type The Word
+            </div>
+            <div class="start" data-text="Start Playing"><span>Start Playing</span></div>
+            <div class="the-word"></div>
+            <input type="text" class="input">
+            <div class="upcoming-words">Words Will Show Here</div>
+            <div class="control">
+                <div class="time">Time Left: <span></span> Seconds</div>
+                <div class="score">Score: <span class="got">0</span> From <span class="totle"></span></div>
+            </div>
+            <div class="finish">
+                <input type="reset" value="Reset" class="reset">
+            </div>
+        </div>
+        <div class="footer">
+            <div class="icons">
+                Find Us On Social Networks
+                <a href="https://www.facebook.com/abdelrahman.ashraf.1694059" target="blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/abdur.rahmanesref/" target="blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://api.whatsapp.com/send/?phone=201158618298&text&app_absent=0" target="blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <div class="title"> &copy; 2022 <span>Abdelrahman</span> All Right Reserved</div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
